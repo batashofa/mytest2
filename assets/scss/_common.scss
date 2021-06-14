@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient( to left top, $color-gray-light 0%, transparent 100% );
+}
+
+.main {
+    @extend %flex;
+    height: calc(100vh - 150px);
+    margin: 75px 80px 75px 80px;
+    background: $color-write;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 1px; 
+}
+
+
+
+@media (max-width: 1100px) {
+    * {
+        overflow-y: scroll;
+    }
+    .main {
+        height: 150vh;
+        width: 100%;
+        flex-direction: column;
+        margin: 60px 0 59px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    * {
+        overflow-y:  scroll;
+        overflow-x: hidden;
+    }
+    .main {
+        width: 100%;
+        flex-direction: column;
+        margin: 60px 0 59px 0;
+    }
+}
+
+
+
+
+
