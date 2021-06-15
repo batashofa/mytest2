@@ -19,7 +19,6 @@
   font-weight: 800;
   line-height: 39px;
   letter-spacing: 0em
-
 }
 
 .main-right__form {
@@ -147,7 +146,6 @@
   &:hover {
     cursor: pointer;
   }
-
 }
 
 .main-right__lock {
@@ -173,7 +171,6 @@
   .main-right__submit {
     width: 100%;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -325,8 +322,9 @@
     margin: 0 0 0 20px;
   }
 }
+
 @media (max-width: 432px) {
-  .main-right__select::after{
+  .main-right__select::after {
     position: absolute;
     content: "";
     margin-left: 37px;

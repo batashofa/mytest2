@@ -63,6 +63,7 @@
 .main-left__img img {
   width: 100%;
 }
+
 @media (max-width: 992px) {
   .main-left {
     height: 70vh;
@@ -118,8 +119,8 @@
     position: absolute;
     left: calc((100% - 330px) / 2);
   }
-
 }
+
 @media (max-width: 320px) {
   .main-left__ellipse {
     height: 202px;
